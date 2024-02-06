@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^1.1.5",
+    "@nuxtjs/tailwindcss": "^6.10.4",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.9.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vue": "^3.4.6",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@supabase/supabase-js": "^2.39.3",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "vuedraggable": "^4.1.0"
+  }
+}
